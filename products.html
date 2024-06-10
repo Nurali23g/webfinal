@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - MedIT</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html"> <img src="bdlogo.png" width="100" alt="Logo"> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav ml-auto ">
+            <li class="nav-item"><a class="nav-link" href="index.html" data-lang="home"></a></li>
+            <li class="nav-item"><a class="nav-link" href="products.html" data-lang="products"></a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html" data-lang="about"></a></li>
+            <li class="nav-item"><a class="nav-link" href="blog.html" data-lang="blog"></a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html" data-lang="contact"></a></li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#" id="language-switch" data-lang="language"></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Products Content -->
+<div class="container mt-5">
+    <h1 data-lang="productstitle">Our Products</h1>
+    <div class="row">
+        <!-- Example Product Card -->
+        <div class="col-md-6 col-lg-3" >
+            <div class="card mb-3 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title" data-lang="product1title">TeleMedPro</h5>
+                    <p class="card-text" data-lang="product1desc"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3 ">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title" data-lang="product2title">Eco-Friendly Dish Soap</h5>
+                    <p class="card-text" data-lang="product2desc">Made from plant-based ingredients for a safe and clean kitchen.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title" data-lang="product3title">Natural Surface Cleaner</h5>
+                    <p class="card-text" data-lang="product3desc">Effective cleaning with no harmful chemicals.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title" data-lang="product4title">Natural Surface Cleaner</h5>
+                    <p class="card-text" data-lang="product4desc">Effective cleaning with no harmful chemicals.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-light text-center text-lg-start">
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <h5><img src="bllogo.png" width="100"></h5>
+                <p data-lang="footerdesc">Innovating Healthcare Solutions.</p>
+            </div>
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase" data-lang="contacttitle">Contact Us</h5>
+                <ul class="list-unstyled mb-0">
+                    <li><a href="#" class="text-dark">Email: MedIT@gmail.com</a></li>
+                    <li><a id="phonenumber" href="#" class="text-dark">Phone: 8 (777) 955 5889</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="text-center p-3 bg-dark text-white">
+        2024 MedIT. | Designed by Nurali
+    </div>
+</footer>
+<audio id="clickSound" src="phone-ringing-101221.mp3" preload="auto"></audio>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
